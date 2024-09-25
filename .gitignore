@@ -1,0 +1,15 @@
+.cache/
+ckpts/
+experiment/__pycache__/
+experiment/metaworld_exp/__pycache__/
+experiment/wandb/
+experiment/benchmark_mw_ff.py
+experiment/benchmark_mw1.sh
+experiment/dummy.py
+experiment/dummy2.py
+results/
+flowdiffusion/flowdiffusion/__pycache__/
+flowdiffusion/flowdiffusion/diffusion_policy_baseline/__pycache__/
+flowdiffusion/flowdiffusion/model/__pycache__/
+mu.tar.gz
+packages
