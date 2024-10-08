@@ -1,6 +1,6 @@
 # VideoAgent experiments
 
-The official codebase for running the experiments described in the VideoAgent paper. You can find codebase for training video policies [here](https://github.com/TrickyJustice/VideoAgent).
+The official codebase for running the experiments described in the VideoAgent paper. You can find codebase for training video policies [here](https://github.com/Video-as-Agent/VideoAgent.git).
 
 This repository contains the code for training video policies presented in our work   
 [VideoAgent: Self improving video generation](https://flow-diffusion.github.io/AVDC.pdf)  
