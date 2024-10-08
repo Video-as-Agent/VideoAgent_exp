@@ -32,7 +32,7 @@ conda install pytorch=2.2.0 torchvision torchaudio pytorch-cuda=11.8 -c pytorch 
 Next, clone the repository and install the requirements  
 
 ```bash
-git clone https://github.com/TrickyJustice/VideoAgent_exp.git
+git clone https://github.com/Video-as-Agent/VideoAgent_exp.git
 cd VideoAgent_exp
 pip install -r requirements.txt
 ```
