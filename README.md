@@ -80,6 +80,13 @@ To run the full VideoAgent on Meta-World with this checkpoint, run the following
 # make sure you have the checkpoint ../ckpts/metaworld_DA/model-24.pt
 bash benchmark_mw_DA.sh 0
 ```
+To generate metaworld data for experiments, run the following command:
+
+```bash
+# make sure you change the collection config in collect_dataset_mw.py
+python experiment/collect_dataset_mw.py
+```
+
 
 ### iTHOR
 
