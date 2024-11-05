@@ -28,7 +28,7 @@ def encode_gif(image_path):
     return encoded
 
 def chat_with_openai_rf(image_paths, gif_paths, text_prompts):
-    api_key = 'sk-proj-949BygC19E83huSvkr4xT3BlbkFJwS60lvFDMhK4A2wTFeFM'
+    api_key = '' ##your openai api key goes here
     # base64_image8 = encode_image("/root/abhranil/AVDC/flowdiffusion/feedback_fewshot/assembly_24_test.png")
     # base64_image8_out = encode_gif("/root/abhranil/AVDC/flowdiffusion/feedback_fewshot/assembly_checkpoint_276_out_3.gif")
     # #print(len(base64_image8_out))
