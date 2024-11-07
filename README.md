@@ -64,21 +64,19 @@ cd experiment
 
 ### Meta-World
 
-To run the full VideoAgent-Online on Meta-World, run the following command:
+To run the full VideoAgent on Meta-World, run the following command:
 
 ```bash
-# make sure you have the checkpoint ../ckpts/metaworld/model-3053083.pt
+# make sure you have the checkpoint ../ckpts/metaworld/model-305.pt
 bash benchmark_mw.sh 0
 # the argument 0 is the GPU id, you can change it to other GPU id if you wish
 ```
 
-We have provided also provided another checkpoint trained with simple random-shift data augmentation. Specifically we first center cropped the image to 160x160 from the original 320x240 image and then random-crop an 128x128 image from it. We found slightly improved performance with this simple augmentation. 
-
-To run the full VideoAgent on Meta-World with this checkpoint, run the following command:
+To run the full VideoAgent-Online on Meta-World, run the following command:
 
 ```bash
-# make sure you have the checkpoint ../ckpts/metaworld/model-305.pt
-bash benchmark_mw_DA.sh 0
+# make sure you have the checkpoint ../ckpts/metaworld/model-3053083.pt
+bash benchmark_mw_online.sh 0
 ```
 To generate metaworld data for experiments, run the following command:
 
