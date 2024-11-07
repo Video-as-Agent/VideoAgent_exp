@@ -50,7 +50,8 @@ We provide the checkpoints used in our main experiments. You can download them u
 
 ```bash
 bash download.sh metaworld
-# bash download.sh metaworld-DA
+# bash download.sh online
+# bash download.sh suggestive
 # bash download.sh ithor 
 ```
 
