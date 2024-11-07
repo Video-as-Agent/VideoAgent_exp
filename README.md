@@ -64,10 +64,10 @@ cd experiment
 
 ### Meta-World
 
-To run the full VideoAgent on Meta-World, run the following command:
+To run the full VideoAgent-Online on Meta-World, run the following command:
 
 ```bash
-# make sure you have the checkpoint ../ckpts/metaworld/model-24.pt
+# make sure you have the checkpoint ../ckpts/metaworld/model-3053083.pt
 bash benchmark_mw.sh 0
 # the argument 0 is the GPU id, you can change it to other GPU id if you wish
 ```
@@ -77,7 +77,7 @@ We have provided also provided another checkpoint trained with simple random-shi
 To run the full VideoAgent on Meta-World with this checkpoint, run the following command:
 
 ```bash
-# make sure you have the checkpoint ../ckpts/metaworld_DA/model-24.pt
+# make sure you have the checkpoint ../ckpts/metaworld/model-305.pt
 bash benchmark_mw_DA.sh 0
 ```
 To generate metaworld data for experiments, run the following command:
